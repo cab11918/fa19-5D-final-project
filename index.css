@@ -15,3 +15,24 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.usph{
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    width: 5%
+}
+
+.cnph{
+    position: absolute;
+    top: 32%;
+    left: 69%;
+    width: 5%
+}
+
+.jpph{
+    position: absolute;
+    top: 32%;
+    left: 87%;
+    width: 5%
+}

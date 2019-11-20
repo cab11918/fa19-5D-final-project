@@ -16,6 +16,22 @@
 
 <div class="bg"></div>
 
+<img src="placeholder.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="usph">
+<img src="placeholder.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="cnph">
+<img src="placeholder.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="jpph">
+
+<script>
+  function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+  }
+
+  function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+  }
+</script>
+
 
 </body>
 
